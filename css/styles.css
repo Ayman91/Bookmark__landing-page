@@ -1,0 +1,86 @@
+@import "/css/responsive/phone.css";
+@import "/css/responsive/desktop.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+/**__________RESETING BROWSER STYLES__________**/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--font-family);
+}
+
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+/**__________UTILITY CLASSES__________**/
+
+html {
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+img,
+svg {
+	display: block;
+}
+
+.btn {
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: transparent;
+}
+
+.primary {
+	padding: 15px;
+	color: #fff;
+	background-color: var(--soft-blue);
+}
+
+.secondary {
+	padding: 15px 20px;
+	color: var(--dark-blue);
+	font-weight: var(--font-bold);
+	text-shadow: 0 0 5px var(--grayish-blue);
+	box-shadow: 2px 2px 10px var(--grayish-blue);
+}
+
+.submit {
+	color: #fff;
+	padding: 15px 20px;
+	background-color: var(--soft-red);
+}
+
+:root {
+	/** COLORS **/
+
+	--soft-red: hsl(0, 94%, 66%);
+	--soft-blue: hsl(231, 69%, 60%);
+	--dark-blue: hsl(229, 31%, 21%);
+	--grayish-blue: hsl(229, 8%, 60%);
+	--very-light-dark-blue: hsl(229deg 31% 21% / 95%);
+
+	/** Typography **/
+
+	--font-bold: 500;
+	--font-size: 18px;
+	--font-medium: 400;
+	--font-family: Rubik;
+}
+
+/**__________Utility classes__________**/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
