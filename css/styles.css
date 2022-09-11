@@ -1,5 +1,5 @@
-@import "/css/responsive/phone.css";
-@import "/css/responsive/desktop.css";
+@import "css/responsive/phone.css";
+@import "css/responsive/desktop.css";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 /**__________RESETING BROWSER STYLES__________**/
 * {
